@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Boulangerie</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Boulangerie Parisienne</h1>
+            <nav>
+                <ul>
+                    <li><a href="#apropos">À Propos</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="bienvenue">
+                <h2>Bienvenue à la Boulangerie Parisienne</h2>
+                <p>Découvrez nos délicieuses pâtisseries et pains frais</p>
+                <p><a class="btnmenu" href="#menu">Voir le Menu</a></p>
+            </div>
+            <div class="apropos">
+               <h2 id="apropos">À Propos de Nous</h2>
+               <p>Située au cœur de Paris, notre boulangerie vous propose des produits frais et faits maison chaque jour.</p>
+            </div>
+            <div class="menu">
+                <h2 id="menu">Notre Menu</h2>
+            </div>
+            <div class="croissant">
+                <img src="assets/img/croissants.jpg" alt="image de croissants au beurre">
+                <h3>Croissant</h3>
+                <p>un croissant au beurre délicieux.</p>
+            </div>
+            <div class="baguette">
+                <img src="assets/img/baguettes.jpg" alt="image de baguette de pain">
+                <h3>Baguette</h3>
+                <p>Notre célèbre baguette croustillante.</p>
+            </div>
+            <div class="painchoco">
+                <img src="assets/img/chocolatine.jpg" alt="image de pain au chocolat/chocolatine">
+                <h3>Pain au Chocolat</h3>
+                <p>Un délicieux pain au chocolat.</p>
+            </div>
+            <div class="eclair">
+                <img src="assets/img/eclairs.jpg" alt="image d'éclair au chocolat">
+                <h3>Éclair au chocolat</h3>
+                <p>Un éclair avec une crème au chocolat.</p>
+            </div>
+            <div class="macaron">
+                <img src="assets/img/macarons.jpg" alt="image de macaron aux multiples saveurs">
+                <h3>Macarons</h3>
+                <p>Assortiment de macarons de différentes saveurs.</p>
+            </div>
+            <div class="tarte">
+                <img src="assets/img/tartes.jpg" alt="image de tarte à la fraise">
+                <h3>Tarte aux Fruits</h3>
+                <p>Une tarte garnie de fruits frais.</p>
+            </div>
+            <div class="contact texte">
+                <h2 id="contact">Contactez-Nous</h2>
+                <p>Adresse: 123 Rue de Paris , 75001 Paris</p>
+                <p>Téléphone: 01 23 45 67 89</p>
+                <p>Email: contact@boulangerieparisienne.fr</p>
+            </div>
+            <div class="contact formulaire">
+                <form>
+                    <label for="Nom">Nom:<br/></label>
+                    <input type="text" name="Nom" id="Nom" required>
+                    <label for="Email"><br>Email:<br></label>
+                    <input type="email"name="Email" id="Email" required>
+                    <label for="Sujet"><br>Sujet:<br></label>
+                    <input type="text" name="Sujet" id="Sujet" required>
+                    <label for="Message"><br>Message:<br></label>
+                    <textarea name="Message" id="Message" cols="33" rows="5"></textarea>
+                    <input class="envoyer" type="submit" name="Envoyer" value="Envoyer">
+                </form>
+            </div>
+        </main>
+        <footer>
+            <p>©2024 - Boulangerie Parisienne. Tous droits réservés.</p>
+        </footer>
+    </body>
+</html>
